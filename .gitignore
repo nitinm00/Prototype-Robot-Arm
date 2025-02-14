@@ -1,1 +1,7 @@
-*.autosave
+# ignore simulink autosave and cache files
+
+*.slx*.autosave
+*.slxc
+
+# ignore ERR files
+*.slx*.err
